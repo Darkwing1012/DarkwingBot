@@ -41,6 +41,7 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     API.sendChat("/me i Love You All <3!!!");
+					API.sendChat("/me Pls No");
                 }
             }
         };
