@@ -1643,7 +1643,7 @@
             },
 			
             loveCommand: {
-                command: 'swag',
+                command: 'love',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['Hugs you and tells you everything is going to be alright',
