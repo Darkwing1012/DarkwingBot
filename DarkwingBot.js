@@ -1642,11 +1642,11 @@
                 }
             },
 			
-            swagCommand: {
+            loveCommand: {
                 command: 'swag',
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['has given you a chocolate chip cookie!',
+                cookies: ['Hugs you and tells you everything is going to be alright',
                     'has given you a soft homemade oatmeal cookie!',
                     'has given you a plain, dry, old cookie. It was the last one in the bag. Gross.',
                     'gives you a sugar cookie. What, no frosting and sprinkles? 0/10 would not touch.',
