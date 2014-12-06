@@ -1531,7 +1531,7 @@
             },
 
             cookieCommand: {
-                command: 'love',
+                command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['has given you a chocolate chip cookie!',
