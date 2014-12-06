@@ -32,8 +32,8 @@
 
          */
 
-        bot.commands.Command = {
-            command: 'love',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.plugCommand = {
+            command: 'plug',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
