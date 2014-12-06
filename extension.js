@@ -32,8 +32,8 @@
 
          */
 
-        bot.commands.plugCommand = {
-            command: 'plug',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.tastyplugCommand = {
+            command: 'tastyplug',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
@@ -41,7 +41,6 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     API.sendChat("Download Tastyplug from https://fungustime.pw/tastyplug/ !");
-					API.sendChat("/me Pls No");
                 }
             }
         };
@@ -88,7 +87,7 @@
         motd: "",
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
         rulesLink: null,
         themeLink: null,
@@ -97,7 +96,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             BL: "https://rawgit.com/Darkwing1012/DarkwingBot/master/blacklists/BL.json",
