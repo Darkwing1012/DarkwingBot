@@ -93,7 +93,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: http://www.diskovr.net/,
+        website: null,
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
