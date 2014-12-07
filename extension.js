@@ -92,7 +92,7 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: "http://adf.ly/v26yy",
+        youtubeLink: "http://ow.ly/FtIjS",
         website: null,
         intervalMessages: [],
         messageInterval: 5,
