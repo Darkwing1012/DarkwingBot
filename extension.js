@@ -84,7 +84,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "",
+        motd: "Welcome To Upgrade!",
         filterChat: true,
         etaRestriction: false,
         welcome: false,
