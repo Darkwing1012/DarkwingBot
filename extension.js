@@ -84,7 +84,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "Welcome to EDM United!",
+        motd: "Welcome to EDM Nation!",
         filterChat: true,
         etaRestriction: false,
         welcome: false,
