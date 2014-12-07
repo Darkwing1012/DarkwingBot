@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "UpgradeBot",
+        botName: "DarkwingBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -84,7 +84,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "Welcome To Upgrade!",
+        motd: "Welcome to EDM United!",
         filterChat: true,
         etaRestriction: false,
         welcome: false,
