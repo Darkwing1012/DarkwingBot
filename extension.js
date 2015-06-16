@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "DarkwingBot",
+        botName: "JAC Bot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -84,7 +84,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "Welcome to EDM Nation!",
+        motd: "Welcome to Jac Gaming!",
         filterChat: true,
         etaRestriction: false,
         welcome: false,
@@ -92,7 +92,7 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: "http://ow.ly/FtIjS",
+        youtubeLink: "",
         website: null,
         intervalMessages: [],
         messageInterval: 5,
