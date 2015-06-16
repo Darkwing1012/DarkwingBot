@@ -207,7 +207,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Welcome to JAC",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -222,8 +222,7 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                BL: "https://raw.githubusercontent.com/Darkwing1012/DarkwingBot/master/blacklists/BL.json"
             }
         },
         room: {
@@ -2303,6 +2302,19 @@
                     else {
                         if (typeof basicBot.settings.opLink === "string")
                             return API.sendChat(subChat(basicBot.chat.oplist, {link: basicBot.settings.opLink}));
+                    }
+                }
+            },
+            
+            jacCommand: {
+            command: 'JAC',
+            rank: 'user',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                        API.sendChat(basicBot.chat.Test Command)
                     }
                 }
             },
