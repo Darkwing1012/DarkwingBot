@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "JAC Bot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/Yemasthui/basicBot/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -99,7 +99,7 @@
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            BL: "https://rawgit.com/Darkwing1012/DarkwingBot/master/blacklists/BL.json",
+            BL: "https://cdn.jsdelivr.net/gh/Darkwing1012/DarkwingBot/blacklists/BL.json",
         }
     }));
 
